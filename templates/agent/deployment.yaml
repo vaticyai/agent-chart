@@ -34,11 +34,11 @@ spec:
               value: {{ .Values.variables.GATEWAY_HOST }}
             - name: "TUNNEL_HOST"
               value: {{ .Values.variables.TUNNEL_HOST }}
-            - name: "AUTH0_TOKEN"
+            - name: "TOKEN"
               valueFrom:
                 secretKeyRef:
                   name: {{ .Values.name }}-secret
-                  key: "AUTH0_TOKEN"
+                  key: "TOKEN"
             - name: "LOG_LEVEL"
               value: {{ .Values.variables.LOG_LEVEL }}
           resources:

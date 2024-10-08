@@ -21,14 +21,14 @@ helm upgrade --install vaticy-agent --namespace vaticy ./chart
 | `name` | `yes` | `agent` | Prefix to use while naming different templates |
 | `replicas` | `no` | `1` | How many replicas to install |
 | `image.repository` | `yes` | `ghcr.io/vaticyai/agent` | The repository to pull the image from |
-| `image.tag` | `yes` | `v0.2.0` | The images tag to pull |
-| `image.pullPolicy` | `no` | `Always` | Image policy for the agent |
+| `image.tag` | `yes` | `v0.4.0` | The images tag to pull |
+| `image.pullPolicy` | `no` | `IfNotPresent` | Image policy for the agent |
 | `resources` | `no` | `{}` | The resources to run the agent with |
 | `variables.LOG_LEVEL` | `no` | `warning` | Log level to run the agent with |
 | `variables.ORGANIZATION_ID` | `yes` | `` | Organization ID received from the Vaticy platform |
 | `variables.GATEWAY_HOST` | `yes` | `` | Where to send the gathered Kubernetes templates |
 | `variables.ENABLE_TUNNEL` | `no` | `true` | Should the agent create a secured tunnel with the `API Gateway` |
-| `variables.AUTH0_TOKEN` | `yes` | `` | This token is used to authenticate the agent |
+| `variables.TOKEN` | `yes` | `` | This token is used to authenticate the agent |
 
 ### Permissions
 

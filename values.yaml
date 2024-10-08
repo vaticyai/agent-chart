@@ -14,9 +14,9 @@ resources:
     memory: 512Mi
 variables:
   LOG_LEVEL: "warn"
-  TUNNEL_HOST: ""
-  AUTH0_TOKEN: ""
-  GATEWAY_HOST: ""
+  TUNNEL_HOST: "api.vaticy.com:8000"
+  TOKEN: ""
+  GATEWAY_HOST: "https://api.vaticy.com"
   ENABLE_TUNNEL: "true"
   ORGANIZATION_ID: ""
 permissions:
