@@ -18,7 +18,7 @@ jobs:
         uses: bsord/helm-push@v4.1.0
         with:
           useOCIRegistry: true
-          registry-url:  oci://ghcr.io/${{ github.repository }}/charts
+          registry-url:  oci://ghcr.io/vaticyai/charts
           username: zigelboim.misha@gmail.com
           access-token: ${{ secrets.GITHUB_TOKEN }}
           force: true
