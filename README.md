@@ -2,10 +2,13 @@
 
 This helm chart allows an easy installation of the Vaticy's [Kubernetes templates agent](/README.md)!
 
-
 ## Deploying the agent
 
 To deploy the agent using this helm chart please execute the following command:
+
+```bash
+helm upgrade --install agent oci://ghcr.io/vaticyai/charts/vaticy-agent --version 0.1.0 -n vaticy --set variables.ORGANIZATION_ID="lpaJKhHmdyzKCNaf" --set variables.TOKEN="E0TkUwhV+N...."
+```
 
 ```bash
 kubectl namespace create vaticy
