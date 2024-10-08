@@ -21,4 +21,4 @@ jobs:
           username: zigelboim.misha@gmail.com
           access-token: ${{ secrets.GITHUB_TOKEN }}
           force: true
-          chart-folder: ./chart
+          chart-folder: "."
