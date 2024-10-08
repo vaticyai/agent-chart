@@ -75,26 +75,6 @@ image:
   pullPolicy: IfNotPresent
 ```
 
-#### Important variables
-
-```yaml
-variables:
-  LOG_LEVEL: "warning"
-  CLUSTER_NAME: "k3d-local"
-  CLIENT_NAME: "vaticy-test"
-  GATEWAY_HOST: "http://192.168.3.24:8080"
-```
-
-#### Pulling the Image from the private GitHub registry
-
-```yaml
-secret:
-  dockerServer: "https://ghcr.io"
-  dockerUsername: "oauth2accesstoken"
-  dockerPassword: "ghp_8QZHRHO7PxxxxxxxxxxxxxFz7t0g9JMW4"
-  dockerEmail: "zigelboim.misha@gmail.com"
-```
-
 #### Setting up permissions on the cluster
 
 It is possible to set up cluster wide permissions using `namespace: "*"`:
