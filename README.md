@@ -25,8 +25,7 @@ helm upgrade --install vaticy-agent --namespace vaticy ./chart
 | `image.pullPolicy` | `no` | `Always` | Image policy for the agent |
 | `resources` | `no` | `{}` | The resources to run the agent with |
 | `variables.LOG_LEVEL` | `no` | `warning` | Log level to run the agent with |
-| `variables.CLUSTER_NAME` | `yes` | `` | The name of the cluster this agent is deployed on |
-| `variables.CLIENT_NAME` | `yes` | `` | Clients name |
+| `variables.ORGANIZATION_ID` | `yes` | `` | Organization ID received from the Vaticy platform |
 | `variables.GATEWAY_HOST` | `yes` | `` | Where to send the gathered Kubernetes templates |
 | `variables.ENABLE_TUNNEL` | `no` | `true` | Should the agent create a secured tunnel with the `API Gateway` |
 | `variables.AUTH0_TOKEN` | `yes` | `` | This token is used to authenticate the agent |
