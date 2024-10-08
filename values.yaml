@@ -1,0 +1,46 @@
+enabled: true
+name: vaticy-agent
+replicas: 1
+image:
+  registry: "ghcr.io/vaticyai/agent"
+  tag: "main"
+  pullPolicy: IfNotPresent
+resources: 
+  requests:
+    cpu: 250m
+    memory: 256Mi
+  limits:
+    cpu: 500m
+    memory: 512Mi
+variables:
+  LOG_LEVEL: "warn"
+  TUNNEL_HOST: ""
+  AUTH0_TOKEN: ""
+  GATEWAY_HOST: ""
+  ENABLE_TUNNEL: "true"
+  ORGANIZATION_ID: ""
+permissions:
+  - namespace: "*"
+    pods: ["get", "patch", "update", "create", "watch", "list"]
+    nodes: ["get", "patch", "update", "create", "watch", "list"]
+    events: ["get", "patch", "update", "create", "watch", "list"]
+    secrets: ["get", "patch", "update", "create", "watch", "list"]
+    services: ["get", "patch", "update", "create", "watch", "list"]
+    endpoints: ["get", "patch", "update", "create", "watch", "list"]
+    configmaps: ["get", "patch", "update", "create", "watch", "list"]
+    serviceaccounts: ["get", "patch", "update", "create", "watch", "list"]
+    persistentvolumes: ["get", "patch", "update", "create", "watch", "list"]
+    persistentvolumeclaims: ["get", "patch", "update", "create", "watch", "list"]
+    replicationcontrollers: ["get", "patch", "update", "create", "watch", "list"]
+    daemonsets: ["get", "patch", "update", "create", "watch", "list"]
+    replicasets: ["get", "patch", "update", "create", "watch", "list"]
+    deployments: ["get", "patch", "update", "create", "watch", "list"]
+    statefulsets: ["get", "patch", "update", "create", "watch", "list"]
+    jobs: ["get", "patch", "update", "create", "watch", "list"]
+    cronjobs: ["get", "patch", "update", "create", "watch", "list"]
+    ingresses: ["get", "patch", "update", "create", "watch", "list"]
+    networkpolicies: ["get", "patch", "update", "create", "watch", "list"]
+    roles: ["get", "patch", "update", "create", "watch", "list"]
+    rolebindings: ["get", "patch", "update", "create", "watch", "list"]
+    clusterroles: ["get", "patch", "update", "create", "watch", "list"]
+    clusterrolebindings: ["get", "patch", "update", "create", "watch", "list"]
