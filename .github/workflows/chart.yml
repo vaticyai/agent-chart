@@ -3,7 +3,8 @@ run-name: Running pipeline for ${{ github.actor }}`s push
 on:
   push:
     paths:
-      - 'chart/**'
+      - '**/*.yaml'
+      - '**/*.yml'
       - '.github/workflows/chart.yml'
 jobs:
   helm-chart:
