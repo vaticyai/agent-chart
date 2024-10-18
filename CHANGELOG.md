@@ -4,7 +4,7 @@
 
 ### Fixed 🔧
 
-- []() Using Agent `v0.4.1` to allow fetching `logs` in the time of need without crashing the agent
+- [#1](https://github.com/vaticyai/agent-chart/pull/1) Using Agent `v0.4.1` to allow fetching `logs` in the time of need without crashing the agent
 
 ## 0.1.0
 
