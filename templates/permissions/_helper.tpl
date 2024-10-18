@@ -4,6 +4,7 @@ Define API Group Mapping
 {{- define "apiGroupMapping" -}}
 {{- $apiGroupMapping := dict
   "pods" (list "")
+  "pods/log" (list "")
   "nodes" (list "")
   "events" (list "")
   "secrets" (list "")
