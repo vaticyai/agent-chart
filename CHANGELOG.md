@@ -1,5 +1,11 @@
 # Vaticy Agent Chart
 
+## 0.1.2
+
+### Fixed 🔧
+
+- [#2](https://github.com/vaticyai/agent-chart/pull/2) Agent to send Kubernetes Events **with** the event itself
+
 ## 0.1.1
 
 ### Fixed 🔧
