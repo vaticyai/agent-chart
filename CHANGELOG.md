@@ -1,5 +1,11 @@
 # Vaticy Agent Chart
 
+## 0.1.3
+
+### Enhancement 🏎️
+
+- [#](https://github.com/vaticyai/agent-chart/pull/) Allow the agent to fetch `namespaces` and `storageclasses`
+
 ## 0.1.2
 
 ### Fixed 🔧
