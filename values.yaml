@@ -3,7 +3,7 @@ name: vaticy-agent
 replicas: 1
 image:
   registry: "ghcr.io/vaticyai/agent"
-  tag: "v0.4.2"
+  tag: "v0.4.4"
   pullPolicy: IfNotPresent
 resources: 
   requests:
