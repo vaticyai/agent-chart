@@ -1,5 +1,11 @@
 # Vaticy Agent Chart
 
+## 0.1.5
+
+### Enhancement 🏎️
+
+- [#5](https://github.com/vaticyai/agent-chart/pull/5) Adding the ability to deploy multiple agents on the same cluster
+
 ## 0.1.4
 
 ### Enhancement 🏎️
