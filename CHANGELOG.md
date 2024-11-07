@@ -4,7 +4,11 @@
 
 ### Enhancement 🏎️
 
-- [#](https://github.com/vaticyai/agent-chart/pull/) Allow the agent to fetch `namespaces` and `storageclasses`
+- [#3](https://github.com/vaticyai/agent-chart/pull/3) Adding 2 improvements to the chart:
+  1. Allow the agent to fetch new resources:
+        - `namespaces` from the `core API`
+        - `storageclasses` from the `storage.k8s.io API`
+  2. The ability to modify the `PROMETHEUS_ALERTS_WATCH_INTERVAL` entrainment variate
 
 ## 0.1.2
 
