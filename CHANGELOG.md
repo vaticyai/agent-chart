@@ -9,6 +9,7 @@
         - `namespaces` from the `core API`
         - `storageclasses` from the `storage.k8s.io API`
   2. The ability to modify the `PROMETHEUS_ALERTS_WATCH_INTERVAL` entrainment variate
+  3. New agent version
 
 ## 0.1.2
 
