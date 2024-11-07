@@ -34,6 +34,8 @@ spec:
               value: {{ .Values.variables.GATEWAY_HOST }}
             - name: "TUNNEL_HOST"
               value: {{ .Values.variables.TUNNEL_HOST }}
+            - name: "PROMETHEUS_ALERTS_WATCH_INTERVAL"
+              value: {{ .Values.variables.PROMETHEUS_ALERTS_WATCH_INTERVAL }}
             - name: "TOKEN"
               valueFrom:
                 secretKeyRef:
