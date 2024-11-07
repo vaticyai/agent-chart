@@ -1,5 +1,11 @@
 # Vaticy Agent Chart
 
+## 0.1.4
+
+### Enhancement 🏎️
+
+- [#4](https://github.com/vaticyai/agent-chart/pull/4) Vaticy agent version bump-up
+
 ## 0.1.3
 
 ### Enhancement 🏎️
