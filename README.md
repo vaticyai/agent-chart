@@ -7,7 +7,7 @@ This helm chart allows an easy installation of the Vaticy's [Kubernetes template
 To deploy the agent using this helm chart please execute the following command:
 
 ```bash
-helm upgrade --install agent oci://ghcr.io/vaticyai/charts/vaticy-agent --version 0.1.0 -n vaticy --set variables.ORGANIZATION_ID="lpaJKhHmdyzKCNaf" --set variables.TOKEN="E0TkUwhV+N...."
+helm upgrade --install agent oci://ghcr.io/vaticyai/charts/vaticy-agent --version 0.1.3 -n vaticy --set variables.ORGANIZATION_ID="lpaJKhHmdyzKCNaf" --set variables.TOKEN="E0TkUwhV+N...."
 ```
 
 ```bash
@@ -32,6 +32,7 @@ helm upgrade --install vaticy-agent --namespace vaticy ./chart
 | `variables.GATEWAY_HOST` | `yes` | `` | Where to send the gathered Kubernetes templates |
 | `variables.ENABLE_TUNNEL` | `no` | `true` | Should the agent create a secured tunnel with the `API Gateway` |
 | `variables.TOKEN` | `yes` | `` | This token is used to authenticate the agent |
+| `variables.PROMETHEUS_ALERTS_WATCH_INTERVAL` | `no` | `30s` | How often to update the Vaticy platform about `Prometheus` alerts |
 
 ### Permissions
 

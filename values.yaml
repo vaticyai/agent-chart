@@ -3,7 +3,7 @@ name: vaticy-agent
 replicas: 1
 image:
   registry: "ghcr.io/vaticyai/agent"
-  tag: "v0.4.2"
+  tag: "v0.4.4"
   pullPolicy: IfNotPresent
 resources: 
   requests:
@@ -19,6 +19,7 @@ variables:
   GATEWAY_HOST: "https://api.vaticy.com"
   ENABLE_TUNNEL: "true"
   ORGANIZATION_ID: ""
+  PROMETHEUS_ALERTS_WATCH_INTERVAL: "15s"
 permissions:
   - namespace: "*"
     pods: ["get", "patch", "update", "create", "watch", "list"]
@@ -28,6 +29,7 @@ permissions:
     secrets: ["get", "patch", "update", "create", "watch", "list"]
     services: ["get", "patch", "update", "create", "watch", "list"]
     endpoints: ["get", "patch", "update", "create", "watch", "list"]
+    namespaces: ["get", "patch", "update", "create", "watch", "list"]
     configmaps: ["get", "patch", "update", "create", "watch", "list"]
     serviceaccounts: ["get", "patch", "update", "create", "watch", "list"]
     persistentvolumes: ["get", "patch", "update", "create", "watch", "list"]
@@ -45,3 +47,4 @@ permissions:
     rolebindings: ["get", "patch", "update", "create", "watch", "list"]
     clusterroles: ["get", "patch", "update", "create", "watch", "list"]
     clusterrolebindings: ["get", "patch", "update", "create", "watch", "list"]
+    storageclasses: ["get", "patch", "update", "create", "watch", "list"]
