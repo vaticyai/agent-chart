@@ -10,6 +10,7 @@ Define API Group Mapping
   "secrets" (list "")
   "services" (list "")
   "endpoints" (list "")
+  "namespaces" (list "")
   "configmaps" (list "")
   "serviceaccounts" (list "")
   "persistentvolumes" (list "")
@@ -28,6 +29,7 @@ Define API Group Mapping
   "rolebindings" (list "rbac.authorization.k8s.io")
   "clusterroles" (list "rbac.authorization.k8s.io")
   "clusterrolebindings" (list "rbac.authorization.k8s.io")
+  "storageclasses" (list "storage.k8s.io")
 }}
 {{- $apiGroupMapping | toJson -}}
 {{- end -}}
