@@ -1,5 +1,13 @@
 # Vaticy Agent Chart
 
+## 0.1.6
+
+### Enhancement 🏎️
+
+- Allowing to deploy multiple agents on the same cluster with permissions:
+  - [4350ed1](https://github.com/vaticyai/agent-chart/commit/4350ed17ee9b01f6a605823a45883b2c32e90252)
+  - [86fc6aa](https://github.com/vaticyai/agent-chart/commit/86fc6aac66fe0d7842555ea795749f6b1ff2bbd4)
+
 ## 0.1.5
 
 ### Enhancement 🏎️
