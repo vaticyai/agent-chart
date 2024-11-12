@@ -1,5 +1,11 @@
 # Vaticy Agent Chart
 
+## 0.1.7
+
+### Fixed 🔧
+
+- [#6](https://github.com/vaticyai/agent-chart/pull/6) Removing the `look-up` as the names of the `ClusterRole` and `Binding` were changed
+
 ## 0.1.6
 
 ### Enhancement 🏎️
