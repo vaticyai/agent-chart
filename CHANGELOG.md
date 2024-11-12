@@ -1,5 +1,11 @@
 # Vaticy Agent Chart
 
+## 0.1.8
+
+### Fixed 🔧
+
+- [4d017b6](https://github.com/vaticyai/agent-chart/commit/4d017b602bbc1b8cd57ebeba4db16efb2872a62e) `RoleBinding` and `ClusterRoleBinding` to use the correct `Role` and `ClusterRole`
+
 ## 0.1.7
 
 ### Fixed 🔧
