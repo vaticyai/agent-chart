@@ -4,7 +4,7 @@
 
 ### Enhancement 🏎️
 
-- [#](https://github.com/vaticyai/agent-chart/pull/) Updating the agent version to [v0.4.6](https://github.com/vaticyai/kubernetes-agent/releases/tag/v0.4.6)
+- [#7](https://github.com/vaticyai/agent-chart/pull/7) Updating the agent version to [v0.4.6](https://github.com/vaticyai/kubernetes-agent/releases/tag/v0.4.6)
 
 ## 0.1.8
 
