@@ -1,5 +1,11 @@
 # Vaticy Agent Chart
 
+## 0.1.10
+
+### Fixes 🔧
+
+- [#8](https://github.com/vaticyai/agent-chart/pull/8) Updating the agent version to [v0.4.7](https://github.com/vaticyai/kubernetes-agent/releases/tag/v0.4.7)
+
 ## 0.1.9
 
 ### Enhancement 🏎️
@@ -8,13 +14,13 @@
 
 ## 0.1.8
 
-### Fixed 🔧
+### Fixes 🔧
 
 - [4d017b6](https://github.com/vaticyai/agent-chart/commit/4d017b602bbc1b8cd57ebeba4db16efb2872a62e) `RoleBinding` and `ClusterRoleBinding` to use the correct `Role` and `ClusterRole`
 
 ## 0.1.7
 
-### Fixed 🔧
+### Fixes 🔧
 
 - [#6](https://github.com/vaticyai/agent-chart/pull/6) Removing the `look-up` as the names of the `ClusterRole` and `Binding` were changed
 
@@ -51,13 +57,13 @@
 
 ## 0.1.2
 
-### Fixed 🔧
+### Fixes 🔧
 
 - [#2](https://github.com/vaticyai/agent-chart/pull/2) Agent to send Kubernetes Events **with** the event itself
 
 ## 0.1.1
 
-### Fixed 🔧
+### Fixes 🔧
 
 - [#1](https://github.com/vaticyai/agent-chart/pull/1) Using Agent `v0.4.1` to allow fetching `logs` in the time of need without crashing the agent
 
