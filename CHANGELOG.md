@@ -4,7 +4,7 @@
 
 ### Fixes 🔧
 
-- [#](https://github.com/vaticyai/agent-chart/pull/) Updating the agent version to [v0.4.7](https://github.com/vaticyai/kubernetes-agent/releases/tag/v0.4.7)
+- [#8](https://github.com/vaticyai/agent-chart/pull/8) Updating the agent version to [v0.4.7](https://github.com/vaticyai/kubernetes-agent/releases/tag/v0.4.7)
 
 ## 0.1.9
 
